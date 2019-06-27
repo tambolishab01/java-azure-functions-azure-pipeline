@@ -1,6 +1,3 @@
-# Set variables once
-variables:
-  azureSubcriptionKey: 7bf6e74a-2525-44fa-b0a2-661c6ba2222a
 
 resources:
 - repo: self
