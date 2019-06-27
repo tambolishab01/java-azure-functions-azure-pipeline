@@ -1,4 +1,6 @@
-
+# Set variables once
+variables:
+  mavenPOMFile: pom.xml
 resources:
 - repo: self
 queue:
