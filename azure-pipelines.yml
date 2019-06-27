@@ -34,7 +34,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   displayName: 'Azure App Service Deploy: javapipeline'
   inputs:
-    azureSubscription: '$(azureSubcriptionKey)'
+    azureSubscription: 'azureSubcriptionKey'
     appType: functionApp
     WebAppName: yourAppServiceName
     packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
