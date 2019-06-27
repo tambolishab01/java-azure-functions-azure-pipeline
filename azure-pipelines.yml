@@ -39,7 +39,7 @@ steps:
   inputs:
     azureSubscription: 'azureSubcriptionKey'
     appType: functionApp
-    WebAppName: newappplan
+    WebAppName: shabwebapp
     packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     enableCustomDeployment: true
     DeploymentType: runFromZip    
