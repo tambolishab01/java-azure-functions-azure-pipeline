@@ -1,6 +1,7 @@
 # Set variables once
 variables:
   mavenPOMFile: pom.xml
+  functionAppMvnTargetFolder: java-functions-azure-pipelines
 resources:
 - repo: self
 queue:
